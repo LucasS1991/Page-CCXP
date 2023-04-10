@@ -1,0 +1,156 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+}
+body{
+    margin: 0px;
+}
+
+header{
+    padding: 30px;
+    background-color: #FFD900;
+}
+.cards{
+    display: flex;
+}
+.cards #date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 802px;
+    height: 450px;
+    background-color: #514988;
+}
+.cards #date h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 85px;
+    color: #F3C61F;
+}
+
+.cards #date h4{
+    color: white;
+    font-size: 20px;
+}
+.cards #date p{
+    width: 430px;
+    text-align: center;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    color: white;
+    line-height: 25px;
+
+}
+#count{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.timer{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: #514988;
+    
+}
+.timer #D{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+}
+.timer #D p{
+    font-size: 60px;
+    font-weight: 700;
+}
+.timer #H{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.timer #H p{
+    font-size: 60px;
+    font-weight: 700;
+}
+.timer #M{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.timer #M p{
+    font-size: 60px;
+    font-weight: 700;
+}
+.timer #S{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.timer #S p{
+    font-size: 60px;
+    font-weight: 700;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    color: #E33881;
+}
+footer{
+    display: flex;
+}
+.ingressos{
+    width: 60%;
+}
+.ingressos p{
+    width: 600px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #F3C61F;
+    align-items: center;
+    padding: 0 400px 5px 150px;
+}
+.ingressos img{
+    margin-left: 70px;
+}
+.botao{
+    background-color: #514988;
+    width: 296px;
+    height: 108px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+button{
+    color: white;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    background-color: #514988;
+    border: none;
+    align-items: center;
+    margin-left: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    background:#514988;
+    color:#F3C61F;
+}
+
+
